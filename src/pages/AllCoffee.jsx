@@ -87,10 +87,10 @@ export default function AllCoffee() {
   let dispatch = useDispatch(); 
 
   useEffect(() => {
-    return () => {
+    // return () => {
       dispatch(unTopHeader())
       dispatch(unMainPage())
-    };
+    // };
   }, []);
 
 
