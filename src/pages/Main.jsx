@@ -15,11 +15,11 @@ export default function Main() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    // return () => {
+    dispatch(TopHeader())
+    dispatch(mainPage())
+    return () => {
       window.removeEventListener("scroll", handleScroll); //clean up
-      dispatch(TopHeader())
-      dispatch(mainPage())
-    // };
+    };
   }, []);
 
   const handleScroll = () => {
