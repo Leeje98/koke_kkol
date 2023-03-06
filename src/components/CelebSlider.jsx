@@ -30,7 +30,7 @@ export default function CelebSlider(cardList) {
     // 슬라이더 데이터 조회
       axios({
         method: "get",
-        url: "http://15.165.242.95:9002/celebrity",
+        url: "https://15.165.242.95:9002/celebrity",
         // data: JSON.stringify(searchData),
         headers: {
           "Content-Type": "application/json; charset=utf-8",
