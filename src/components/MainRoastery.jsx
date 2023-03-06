@@ -99,6 +99,8 @@ export default function MainRoastery() {
         })
         .catch((err) => {
           console.log(err);
+          alert(err.message);
+          alert(err.name);
         });
     }
   }, [roastery]);
