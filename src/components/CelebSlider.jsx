@@ -57,7 +57,8 @@ export default function CelebSlider(cardList) {
         });
       }
     
-  }, [dataList]);
+  }, []);
+  // }, [dataList]);
 
   // const settings = {
   //   spaceBetween: 20,

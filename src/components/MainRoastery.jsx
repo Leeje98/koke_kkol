@@ -103,7 +103,8 @@ export default function MainRoastery() {
           alert(err.name);
         });
     }
-  }, [roastery]);
+  }, []);
+  // }, [roastery]);
 
  
   return (
